@@ -1,0 +1,55 @@
+.flexContainer {
+  display: flex;
+}
+.flex1 {
+  flex: 1;
+}
+
+.main {
+  margin: 20px;
+}
+
+.mainCard {
+  margin: 50px;
+  padding: 20px;
+  min-width: 600px;
+}
+.mainTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.mainTest {
+  min-width: 550px;
+}
+
+.flatButton {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.recharts-wrapper {
+  margin: auto !important;
+}
+
+@media only screen and (max-width: 1130px) {
+  .mainCard {
+    margin: 15px;
+    padding: 10px;
+    min-width: 500px;
+  }
+
+  .mainTitle {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .mainTest {
+    min-width: 400px;
+  }
+
+  .flexContainer {
+    display: block;
+  }
+  .flex1 {
+  }
+}
